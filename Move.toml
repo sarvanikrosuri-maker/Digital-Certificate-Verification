@@ -1,0 +1,16 @@
+[package]
+name = "certificateverification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+hrithvika_addr = "cc1a0f1e4b53e8129bf7895eb3277a2ebb56f612e015cfdbf75bb56bd2fbee9f"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
